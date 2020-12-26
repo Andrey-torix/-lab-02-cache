@@ -1,5 +1,7 @@
 # Лабораторная работа №2
 
+[![Build Status](https://travis-ci.com/Andrey-torix/-lab-02-cache.svg?branch=ver2)](https://travis-ci.com/Andrey-torix/-lab-02-cache)
+
 В большинстве современных ПК используется следующая иерархия памяти:
 | Тип | Скорость доступа | Размер |
 | - | - | - |

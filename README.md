@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/Andrey-torix/-lab-02-cache.svg?branch=ver2)](https://travis-ci.com/Andrey-torix/-lab-02-cache)
 
+![](otchet.png)
+
 В большинстве современных ПК используется следующая иерархия памяти:
 | Тип | Скорость доступа | Размер |
 | - | - | - |

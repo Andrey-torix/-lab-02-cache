@@ -14,7 +14,7 @@ static const size_t offset = 16;
 static const int tCount = 1000;
 static const double cache_Size[5] = {0.320, 0.640, 5, 7, 10.5};
 static const int colCache = 5;
-static const int transftobit = 1 048 576;
+static const int transftobit = 1048576;
 int* initMem(int len);
 double straightExperiment(size_t size, int testCount);
 double backExperiment(size_t size, int testCount);

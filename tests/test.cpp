@@ -2,11 +2,11 @@
 #include "../include/cache.hpp"
 #include <gtest/gtest.h>
 TEST(Test, straightBackExperiment) {
-    int sizeBuffert[5] = {static_cast< int>(cache_Size[0] * 1024 * 1024),
-                          static_cast<int>(cache_Size[1] * 1024 * 1024),
-                          static_cast<int>(cache_Size[2] * 1024 * 1024),
-                          static_cast<int>(cache_Size[3] * 1024 * 1024),
-                          static_cast<int>(cache_Size[4] * 1024 * 1024)};
+    int sizeBuffert[5] = {static_cast< int>(cache_Size[0] * transftobit),
+                          static_cast<int>(cache_Size[1] * transftobit),
+                          static_cast<int>(cache_Size[2] * transftobit),
+                          static_cast<int>(cache_Size[3] * transftobit),
+                          static_cast<int>(cache_Size[4] * transftobit)};
     for (int i = 0; i < colCache; ++i) {
     std::cout << sizeBuffert[i] <<std::endl;
     }
